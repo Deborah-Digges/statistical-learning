@@ -49,11 +49,12 @@ Less flexible
 - suitable when the underlying data is not very non linear
 - suitable when the end goal is inference
 
-## 6. in the parametric approach, we predetermine the functional form f and estimate f by estimating a set of parameters
-Advantages
+## 6. 
+In the parametric approach, we predetermine the functional form f and estimate f by estimating a set of parameters
+*Advantages*
 - Reduces the problem of estimating an arbitrary function f to the problem of estimating a set of parameters
 - Generally requires less data than non parametric models
-Disadvantages
+*Disadvantages*
 - We may assume the wrong functional form for f which does not properly fit the data
 
 ## 7. 
@@ -75,6 +76,6 @@ uclid_dist([-1, 0, 1], [0, 0, 0])
 uclid_dist([1, 1, 1], [0, 0, 0])
 1.732
 
-k=1 => Green
-k=3 => Red
-We would expect the best value for k to be small because as 1/k increases, the flexibility increases
+- k=1 => Green
+- k=3 => Red
+- We would expect the best value for k to be small because as 1/k increases, the flexibility increases
