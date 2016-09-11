@@ -58,22 +58,22 @@ Disadvantages
 
 ## 7. 
 uclid_dist([0,3,0], [0, 0, 0])
-9
+3
 
 uclid_dist([2, 0, 0], [0, 0, 0])
-4
-
-uclid_dist([0, 1, 3], [0, 0, 0])
-10
-
-uclid_dist([0, 1, 2], [0, 0, 0])
-5
-
-uclid_dist([-1, 0, 1], [0, 0, 0])
 2
 
+uclid_dist([0, 1, 3], [0, 0, 0])
+3.16
+
+uclid_dist([0, 1, 2], [0, 0, 0])
+2.23
+
+uclid_dist([-1, 0, 1], [0, 0, 0])
+1.414
+
 uclid_dist([1, 1, 1], [0, 0, 0])
-3
+1.732
 
 k=1 => Green
 k=3 => Red
