@@ -3,8 +3,11 @@
 ## 1.
 
 a. n is extremely large and p is small - a more flexible model is better to take advantage of the large amount of data
+
 b. p is large, n is small - a more flexible model is worse as it may fit to the noise in the small amount of data
+
 c. the relationship between the predictors and the response is highly non linear - a more flexible model would be better as it would helo to better approximate a function for this complex relationship
+
 d. variance(epsilon) is high - a more flexible model would be worse as it may fit to the noise in the data rather than the actual signal
 
 ## 2. 
