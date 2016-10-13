@@ -7,3 +7,25 @@ H0: beta1 = 0, H0: beta2 = 0, H0: beta3 = 0
 - We reject the null hypothesis for the first two hypotheses.
 - TV and radio are significany in predicting sales
 - We may coclude that newspaper budget is not significant in predicting sales
+
+# 2.
+KNN Classification:
+Classifies a new point as the class with the highest probability among the k nearest neighbours to that point
+
+KNN Regression:
+Predicts a value Y for a given feature vector X as the average of the response Y for all X in the neighbourhood of that point
+
+# 3.
+
+a. (iii) 
+- For males:   Y = (beta0) + beta1 * X1 + Beta2 * X2 + Beta4 * X2 * X1
+- For females: Y = (beta0 + beta3 + beta5 * X1 )+ beta1 * X1 + Beta2 * X2 + Beta4 * X2 * X1
+
+the part in parentheses is what differentiates the two
+beta0 = 50
+beta0 + beta3 + beta5 * X1 = 85 - 10X1
+If GPA is sufficiently high, the male offset will exceed that of the female.
+
+b. Y = beta0 + beta3 + (beta1 + beta5) * X1 + beta2 * X2 + beta4 * X2 * X1 = 137.1
+
+c. False-the coefficient indicates the strength of the interaction. Evidence of the interaction is indicated by the p-value
